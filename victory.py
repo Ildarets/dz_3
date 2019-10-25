@@ -14,7 +14,7 @@ for key in FAMOUS_PEOPLE:
 
 
 sampling = random.choices(list_famous_keys, k=5)
-print(sampling)
+
 
 for i in sampling:
     data_per = input("Когда родился " + i + " :  ")
